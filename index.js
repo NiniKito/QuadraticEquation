@@ -21,7 +21,7 @@ function Calculate() {
   var D = b * b - 4 * a * c;
   var R1 = getElement("root1"),
     R2 = getElement("root2"),
-    nos = getElement("NOS");
+    noroots= getElement("noroots");
 
   R1.innerHTML = "";
   R2.innerHTML = "";
